@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DC6B6931DAF5A4C00979EB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC6B6921DAF5A4C00979EB7 /* main.m */; };
+		8DC6B6961DAF5A4C00979EB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC6B6951DAF5A4C00979EB7 /* AppDelegate.m */; };
+		8DC6B6991DAF5A4C00979EB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC6B6981DAF5A4C00979EB7 /* ViewController.m */; };
+		8DC6B69C1DAF5A4C00979EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC6B69A1DAF5A4C00979EB7 /* Main.storyboard */; };
+		8DC6B69E1DAF5A4C00979EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DC6B69D1DAF5A4C00979EB7 /* Assets.xcassets */; };
+		8DC6B6A11DAF5A4C00979EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC6B69F1DAF5A4C00979EB7 /* LaunchScreen.storyboard */; };
+		8DC6B6AC1DAF5A4D00979EB7 /* Steven_CropImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC6B6AB1DAF5A4D00979EB7 /* Steven_CropImageTests.m */; };
+		8DC6B6B71DAF5A4D00979EB7 /* Steven_CropImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC6B6B61DAF5A4D00979EB7 /* Steven_CropImageUITests.m */; };
+		8DC6B6CC1DAF5A8900979EB7 /* temp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC6B6CB1DAF5A8900979EB7 /* temp.jpg */; };
+		8DC6B6CF1DAF5DAD00979EB7 /* StevenImageCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC6B6CE1DAF5DAD00979EB7 /* StevenImageCrop.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DC6B6A81DAF5A4D00979EB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DC6B6861DAF5A4C00979EB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC6B68D1DAF5A4C00979EB7;
+			remoteInfo = Steven_CropImage;
+		};
+		8DC6B6B31DAF5A4D00979EB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DC6B6861DAF5A4C00979EB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC6B68D1DAF5A4C00979EB7;
+			remoteInfo = Steven_CropImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DC6B68E1DAF5A4C00979EB7 /* Steven_CropImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Steven_CropImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC6B6921DAF5A4C00979EB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DC6B6941DAF5A4C00979EB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DC6B6951DAF5A4C00979EB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8DC6B6971DAF5A4C00979EB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8DC6B6981DAF5A4C00979EB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8DC6B69B1DAF5A4C00979EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DC6B69D1DAF5A4C00979EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DC6B6A01DAF5A4C00979EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DC6B6A21DAF5A4C00979EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC6B6A71DAF5A4D00979EB7 /* Steven_CropImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Steven_CropImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC6B6AB1DAF5A4D00979EB7 /* Steven_CropImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Steven_CropImageTests.m; sourceTree = "<group>"; };
+		8DC6B6AD1DAF5A4D00979EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC6B6B21DAF5A4D00979EB7 /* Steven_CropImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Steven_CropImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC6B6B61DAF5A4D00979EB7 /* Steven_CropImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Steven_CropImageUITests.m; sourceTree = "<group>"; };
+		8DC6B6B81DAF5A4D00979EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC6B6CB1DAF5A8900979EB7 /* temp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = temp.jpg; sourceTree = "<group>"; };
+		8DC6B6CD1DAF5DAD00979EB7 /* StevenImageCrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StevenImageCrop.h; sourceTree = "<group>"; };
+		8DC6B6CE1DAF5DAD00979EB7 /* StevenImageCrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StevenImageCrop.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC6B68B1DAF5A4C00979EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC6B6A41DAF5A4D00979EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC6B6AF1DAF5A4D00979EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DC6B6851DAF5A4C00979EB7 = {
+			isa = PBXGroup;
+			children = (
+				8DC6B6901DAF5A4C00979EB7 /* Steven_CropImage */,
+				8DC6B6AA1DAF5A4D00979EB7 /* Steven_CropImageTests */,
+				8DC6B6B51DAF5A4D00979EB7 /* Steven_CropImageUITests */,
+				8DC6B68F1DAF5A4C00979EB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DC6B68F1DAF5A4C00979EB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC6B68E1DAF5A4C00979EB7 /* Steven_CropImage.app */,
+				8DC6B6A71DAF5A4D00979EB7 /* Steven_CropImageTests.xctest */,
+				8DC6B6B21DAF5A4D00979EB7 /* Steven_CropImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DC6B6901DAF5A4C00979EB7 /* Steven_CropImage */ = {
+			isa = PBXGroup;
+			children = (
+				8DC6B6941DAF5A4C00979EB7 /* AppDelegate.h */,
+				8DC6B6951DAF5A4C00979EB7 /* AppDelegate.m */,
+				8DC6B6971DAF5A4C00979EB7 /* ViewController.h */,
+				8DC6B6981DAF5A4C00979EB7 /* ViewController.m */,
+				8DC6B6C41DAF5A7F00979EB7 /* MLImageCrop */,
+				8DC6B69A1DAF5A4C00979EB7 /* Main.storyboard */,
+				8DC6B69D1DAF5A4C00979EB7 /* Assets.xcassets */,
+				8DC6B69F1DAF5A4C00979EB7 /* LaunchScreen.storyboard */,
+				8DC6B6A21DAF5A4C00979EB7 /* Info.plist */,
+				8DC6B6CB1DAF5A8900979EB7 /* temp.jpg */,
+				8DC6B6911DAF5A4C00979EB7 /* Supporting Files */,
+			);
+			path = Steven_CropImage;
+			sourceTree = "<group>";
+		};
+		8DC6B6911DAF5A4C00979EB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DC6B6921DAF5A4C00979EB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DC6B6AA1DAF5A4D00979EB7 /* Steven_CropImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DC6B6AB1DAF5A4D00979EB7 /* Steven_CropImageTests.m */,
+				8DC6B6AD1DAF5A4D00979EB7 /* Info.plist */,
+			);
+			path = Steven_CropImageTests;
+			sourceTree = "<group>";
+		};
+		8DC6B6B51DAF5A4D00979EB7 /* Steven_CropImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DC6B6B61DAF5A4D00979EB7 /* Steven_CropImageUITests.m */,
+				8DC6B6B81DAF5A4D00979EB7 /* Info.plist */,
+			);
+			path = Steven_CropImageUITests;
+			sourceTree = "<group>";
+		};
+		8DC6B6C41DAF5A7F00979EB7 /* MLImageCrop */ = {
+			isa = PBXGroup;
+			children = (
+				8DC6B6CD1DAF5DAD00979EB7 /* StevenImageCrop.h */,
+				8DC6B6CE1DAF5DAD00979EB7 /* StevenImageCrop.m */,
+			);
+			path = MLImageCrop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DC6B68D1DAF5A4C00979EB7 /* Steven_CropImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DC6B6BB1DAF5A4D00979EB7 /* Build configuration list for PBXNativeTarget "Steven_CropImage" */;
+			buildPhases = (
+				8DC6B68A1DAF5A4C00979EB7 /* Sources */,
+				8DC6B68B1DAF5A4C00979EB7 /* Frameworks */,
+				8DC6B68C1DAF5A4C00979EB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Steven_CropImage;
+			productName = Steven_CropImage;
+			productReference = 8DC6B68E1DAF5A4C00979EB7 /* Steven_CropImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DC6B6A61DAF5A4D00979EB7 /* Steven_CropImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DC6B6BE1DAF5A4D00979EB7 /* Build configuration list for PBXNativeTarget "Steven_CropImageTests" */;
+			buildPhases = (
+				8DC6B6A31DAF5A4D00979EB7 /* Sources */,
+				8DC6B6A41DAF5A4D00979EB7 /* Frameworks */,
+				8DC6B6A51DAF5A4D00979EB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DC6B6A91DAF5A4D00979EB7 /* PBXTargetDependency */,
+			);
+			name = Steven_CropImageTests;
+			productName = Steven_CropImageTests;
+			productReference = 8DC6B6A71DAF5A4D00979EB7 /* Steven_CropImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DC6B6B11DAF5A4D00979EB7 /* Steven_CropImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DC6B6C11DAF5A4D00979EB7 /* Build configuration list for PBXNativeTarget "Steven_CropImageUITests" */;
+			buildPhases = (
+				8DC6B6AE1DAF5A4D00979EB7 /* Sources */,
+				8DC6B6AF1DAF5A4D00979EB7 /* Frameworks */,
+				8DC6B6B01DAF5A4D00979EB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DC6B6B41DAF5A4D00979EB7 /* PBXTargetDependency */,
+			);
+			name = Steven_CropImageUITests;
+			productName = Steven_CropImageUITests;
+			productReference = 8DC6B6B21DAF5A4D00979EB7 /* Steven_CropImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DC6B6861DAF5A4C00979EB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = steven;
+				TargetAttributes = {
+					8DC6B68D1DAF5A4C00979EB7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8DC6B6A61DAF5A4D00979EB7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8DC6B68D1DAF5A4C00979EB7;
+					};
+					8DC6B6B11DAF5A4D00979EB7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8DC6B68D1DAF5A4C00979EB7;
+					};
+				};
+			};
+			buildConfigurationList = 8DC6B6891DAF5A4C00979EB7 /* Build configuration list for PBXProject "Steven_CropImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DC6B6851DAF5A4C00979EB7;
+			productRefGroup = 8DC6B68F1DAF5A4C00979EB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC6B68D1DAF5A4C00979EB7 /* Steven_CropImage */,
+				8DC6B6A61DAF5A4D00979EB7 /* Steven_CropImageTests */,
+				8DC6B6B11DAF5A4D00979EB7 /* Steven_CropImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC6B68C1DAF5A4C00979EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC6B6A11DAF5A4C00979EB7 /* LaunchScreen.storyboard in Resources */,
+				8DC6B6CC1DAF5A8900979EB7 /* temp.jpg in Resources */,
+				8DC6B69E1DAF5A4C00979EB7 /* Assets.xcassets in Resources */,
+				8DC6B69C1DAF5A4C00979EB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC6B6A51DAF5A4D00979EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC6B6B01DAF5A4D00979EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC6B68A1DAF5A4C00979EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC6B6CF1DAF5DAD00979EB7 /* StevenImageCrop.m in Sources */,
+				8DC6B6991DAF5A4C00979EB7 /* ViewController.m in Sources */,
+				8DC6B6961DAF5A4C00979EB7 /* AppDelegate.m in Sources */,
+				8DC6B6931DAF5A4C00979EB7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC6B6A31DAF5A4D00979EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC6B6AC1DAF5A4D00979EB7 /* Steven_CropImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC6B6AE1DAF5A4D00979EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC6B6B71DAF5A4D00979EB7 /* Steven_CropImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DC6B6A91DAF5A4D00979EB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC6B68D1DAF5A4C00979EB7 /* Steven_CropImage */;
+			targetProxy = 8DC6B6A81DAF5A4D00979EB7 /* PBXContainerItemProxy */;
+		};
+		8DC6B6B41DAF5A4D00979EB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC6B68D1DAF5A4C00979EB7 /* Steven_CropImage */;
+			targetProxy = 8DC6B6B31DAF5A4D00979EB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DC6B69A1DAF5A4C00979EB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DC6B69B1DAF5A4C00979EB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DC6B69F1DAF5A4C00979EB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DC6B6A01DAF5A4C00979EB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DC6B6B91DAF5A4D00979EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8DC6B6BA1DAF5A4D00979EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DC6B6BC1DAF5A4D00979EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Steven_CropImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freechou.Steven-CropImage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8DC6B6BD1DAF5A4D00979EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Steven_CropImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freechou.Steven-CropImage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8DC6B6BF1DAF5A4D00979EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Steven_CropImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freechou.Steven-CropImageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Steven_CropImage.app/Steven_CropImage";
+			};
+			name = Debug;
+		};
+		8DC6B6C01DAF5A4D00979EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Steven_CropImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freechou.Steven-CropImageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Steven_CropImage.app/Steven_CropImage";
+			};
+			name = Release;
+		};
+		8DC6B6C21DAF5A4D00979EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Steven_CropImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freechou.Steven-CropImageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Steven_CropImage;
+			};
+			name = Debug;
+		};
+		8DC6B6C31DAF5A4D00979EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Steven_CropImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freechou.Steven-CropImageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Steven_CropImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DC6B6891DAF5A4C00979EB7 /* Build configuration list for PBXProject "Steven_CropImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC6B6B91DAF5A4D00979EB7 /* Debug */,
+				8DC6B6BA1DAF5A4D00979EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DC6B6BB1DAF5A4D00979EB7 /* Build configuration list for PBXNativeTarget "Steven_CropImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC6B6BC1DAF5A4D00979EB7 /* Debug */,
+				8DC6B6BD1DAF5A4D00979EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8DC6B6BE1DAF5A4D00979EB7 /* Build configuration list for PBXNativeTarget "Steven_CropImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC6B6BF1DAF5A4D00979EB7 /* Debug */,
+				8DC6B6C01DAF5A4D00979EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8DC6B6C11DAF5A4D00979EB7 /* Build configuration list for PBXNativeTarget "Steven_CropImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC6B6C21DAF5A4D00979EB7 /* Debug */,
+				8DC6B6C31DAF5A4D00979EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DC6B6861DAF5A4C00979EB7 /* Project object */;
+}
